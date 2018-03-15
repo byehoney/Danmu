@@ -1,0 +1,260 @@
+body{
+    background-color: #ffbf47;
+}
+.main{
+    max-width: 750px;
+    margin: 0 auto;
+    /*background-color: #ffbf47;*/
+    height: 100%;
+}
+.enterPage,.noRegister,.noInvest{
+    padding-bottom: .4rem;
+}
+.enterPage .cakeBg{
+   opacity: 0;
+    width: 100%;
+}
+.diaryTitle{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: .4rem auto 0;
+}
+.diaryTitle p{
+    font-size: .3rem;
+    color: #f45339;
+    font-weight: bold;
+    line-height: .55rem;
+    opacity: 0;
+}
+.diaryTitle .iconsLeft{
+    position: absolute;
+    top: .3rem;
+    left: .4rem;
+    width: .91rem;
+    height: .56rem;
+    background: url("../image/left.png") no-repeat;
+    background-size: 100% 100%;
+}
+.diaryTitle .iconsRight{
+    position: absolute;
+    top: .3rem;
+    right: .32rem;
+    width: .9rem;
+    height: .66rem;
+    background: url("../image/right.png") no-repeat;
+    background-size: 100% 100%;
+}
+.phoneBox{
+    margin-top: .38rem;
+}
+.phoneBox input{
+    display: block;
+    width: 83.46%;
+    height: .88rem;
+    background-color: #fff2ce;
+    margin: 0 auto;
+    font-size: .28rem;
+    color: #f46953;
+    padding-left: 3.2%;
+    border: .06rem solid #f3a30b;
+    border-radius:.14rem;
+
+}
+.phoneBox input::-webkit-input-placeholder{
+    font-size: .28rem;
+    color: #f46953;
+}
+.phoneError,.messageError{
+    width: 33.6%;
+    margin: .07rem auto;
+    text-align: center;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .22rem;
+    color: #ffffff;
+    background-color: #664c1c;
+    border-radius: .4rem;
+    visibility: hidden;
+}
+.seeDiary,.downLoad,.welfare{
+    width: 3.78rem;
+    height: 1.21rem;
+    line-height: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    background: url("../image/buttons.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: .3rem;
+    color: #fff2ce;
+}
+/*未注册*/
+.noRegister .icom{
+    display: block;
+    width: 1.4rem;
+    margin: .74rem auto .65rem;
+}
+.registerMes p{
+    font-size: .3rem;
+    color: #f45339;
+    text-align: center;
+    line-height: .6rem;
+    font-weight: bold;
+}
+.noRegister .giftImg,.noInvest .giftImg{
+    display: block;
+    width: 4.45rem;
+    margin: 0 auto;
+}
+.downLoad{
+    margin: .72rem auto 0;
+}
+.logoImg{
+    display: block;
+    width: 1.67rem;
+    margin: .66rem auto .25rem;
+}
+.investMes p{
+    font-size: .3rem;
+    color: #f45339;
+    text-align: center;
+    font-weight: bold;
+}
+.welfare{
+    margin-top: .72rem;
+}
+.mark{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: #000;
+    opacity: 0.3;
+}
+.useWelfare{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 86.67%;
+    border-radius: .08rem;
+    background-color: #ffbf47;
+}
+.benefits{
+   text-align: center;
+}
+.benefits p{
+    font-size: .36rem;
+    color: #f45037;
+    line-height: .44rem;
+}
+.cakeImg{
+    display: block;
+    width: 100%;
+}
+.goUse{
+    width: 87.23%;
+    height: .96rem;
+    margin: .44rem auto .64rem;
+    background: url("../image/btnUse.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: .77rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #fff2ce;
+}
+.regClose {
+    width: .52rem;
+    height: .52rem;
+    background: url(../image/close.png) no-repeat;
+    background-size: 100% 100%;
+}
+.icoBox{
+    margin-bottom: .1rem;
+}
+.regBox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 86.67%;
+}
+.regCon {
+    padding: 0 6% .62rem;
+    background-color: #ffbf47;
+    overflow: hidden;
+    border-radius: .1rem;
+}
+.regMes{
+    margin-top: .42rem;
+    text-align: center;
+}
+.regMes p{
+    line-height: .36rem;
+    font-size: .3rem;
+    color: #f45339;
+    font-weight: bold;
+}
+.messageP{
+    font-size: .24rem;
+    color: #87621a;
+    margin: .7rem 0 .12rem 0;
+}
+.regDiv {
+    border: .06rem solid #f3a30b;
+    border-radius: .05rem;
+}
+.regCon .codeBox {
+    width: 70.55%;
+    height: .7rem;
+    line-height: .7rem;
+}
+.regCon .codeBox input {
+    width: 100%;
+    padding-left: 2.5%;
+    background-color: #fff2ce;
+    box-sizing: border-box;
+    height: .7rem;
+    border-radius: .05rem 0 0 .05rem;
+    color: #f46953;
+    font-size: .28rem;
+}
+.regCon p input::-webkit-input-placeholder{
+    color: #f46953;
+    font-size: .28rem;
+}
+.send {
+    width: 29.45%;
+    height: .7rem;
+    line-height: .7rem;
+    font-size: .24rem;
+    color: #fff2ce;
+    background-color: #f45037;
+    text-align: center;
+    border-radius: 0 .05rem .05rem 0;
+}
+.rightReg{
+    width: 100%;
+    height: .96rem;
+    background: url("../image/btnUse.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: .3rem;
+    color: #fff2ce;
+    line-height: .77rem;
+    text-align: center;
+}
+.messageError{
+    width: 42.6%;
+}
+.docWrapper{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow:auto;
+    -webkit-overflow-scrolling : touch;
+}

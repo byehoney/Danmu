@@ -1,0 +1,240 @@
+body{
+    background-color: #263e5e;
+}
+.main{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.main .title{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner h3{
+    position: absolute;
+    top: .12rem;
+    width: 100%;
+    text-align: center;
+    font-size: .5rem;
+    color: #fff2ce;
+    font-weight: bold;
+}
+.bangList{
+    overflow: hidden;
+    width: 83.2%;
+    margin: 0 auto 0;
+    position: relative;
+    z-index: 2;
+}
+.bangList li{
+    float: left;
+    width: 33.33%;
+    height: .64rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #ffe8b3;
+    vertical-align: bottom;
+    line-height: .8rem;
+}
+.bangList li.active{
+    font-size: .4rem;
+    border-radius: .4rem .4rem 0 0;
+    background-color: #f3a30b;
+}
+.swiper-container{
+    width: 95.33%;
+    background: url(../images/slideBg.png) no-repeat;
+    background-size: 100% 100%;
+    height: 9.45rem;
+    margin-top: -.05rem;
+    z-index: 1;
+
+}
+.swiper-slide{
+    padding-top: .53rem;
+    position: relative;
+}
+.firstList{
+    width: 95.33%;
+    margin: 0 auto;
+    padding-top: .53rem;
+}
+.firstList li{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.firstList li:nth-of-type(2){
+    margin-top: -.57rem;
+}
+.firstList li .headDiv{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0 auto .09rem;
+    background-color: #f3a30b;
+    border-radius: 50%;
+    position: relative;
+
+}
+.firstList li .headDiv img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: -.6rem 0 0 -.6rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.firstList li .headDiv .silver{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: .34rem;
+    height: .46rem;
+    background: url("../images/silver.png") no-repeat;
+    background-size: 100% 100%;
+}
+.firstList li .goldHead{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 auto .09rem;
+    background-color: #f3a30b;
+    border-radius: 50%;
+    position: relative;
+}
+.firstList li .goldHead .gold{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: .36rem;
+    height: .47rem;
+    background: url("../images/gold.png") no-repeat;
+    background-size: 100% 100%;
+}
+.firstList li .headDiv .copper{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: .34rem;
+    height: .46rem;
+    background: url("../images/copper.png") no-repeat;
+    background-size: 100% 100%;
+}
+.firstList li p,.rankingDivLeft p,.rankingDivRight p{
+    font-size: .22rem;
+    color: #e59600;
+    line-height: .35rem;
+}
+.firstList li p.red{
+    font-size: .28rem;
+    color: #f46751;
+}
+.firstList li .goldHead img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: -.75rem 0 0 -.75rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+rankingImgLeft,.rankingImgRight{
+    width: 1.68rem;
+}
+.rankingDivLeft{
+    text-align: right;
+    width: 62.68%;
+}
+.rankingDivRight{
+    text-align: left;
+    width: 62.68%;
+}
+.rankingImgRight{
+    text-align: left;
+}
+.rankingImgLeft,.rankingImgRight{
+    width: 24.48%;
+    height: .82rem;
+    border-radius: 50%;
+    position: relative;
+}
+.rankingImgLeft{
+    margin-left: 2.98%;
+}
+.rankingImgRight{
+    margin-right: 2.98%;
+}
+.rankingImgLeft img,.rankingImgRight img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: .7rem;
+    height: .7rem;
+    margin: -.39rem 0 0 -.39rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: .04rem solid #f3a30b;
+}
+.lines{
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    width: .7rem;
+    margin-left: -.35rem;
+
+
+}
+.numbers .radio{
+    display:block;
+    width: .28rem;
+    height: .28rem;
+    line-height: .28rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f3a30b;
+    border-radius: 50%;
+    font-size: .18rem;
+    color: #fff2ce;
+    position: relative;
+}
+.numbers .linesSpan{
+    display:block;
+    width: 2px;
+    height: .45rem;
+    margin: 0 auto;
+    background-color: #ffcd03;
+}
+.leftBox{
+    position: absolute;
+    width: 44.8%;
+    left: .28rem;
+    top:3.85rem;
+}
+.rightBox{
+    position: absolute;
+    width: 44.8%;
+    right: .28rem;
+    top:4.58rem;
+}
+.lineDiv{
+    width:9.86%;
+    height: 2px;
+    background-color: #ffcd03;
+    margin-top: .4rem;
+}
+.leftBoxDiv,.rightBoxDiv{
+    margin-bottom: .64rem;
+}
+.bottom{
+    margin: 0 auto;
+    padding: .15rem 0;
+}
+.bottom img{
+    display: block;
+    width: 1.01rem;
+    margin: 0 auto;
+}

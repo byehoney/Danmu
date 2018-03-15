@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="m.juypuqian.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>理财日记</title>
+    <link rel="stylesheet" href="css/public.css" type="text/css"/>
+    <link rel="stylesheet" href="css/diary.css" type="text/css">
+</head>
+<body>
+<div class="docWrapper">
+    <section class="main">
+        <!--扫描进入-->
+        <div class="enterPage" style="display: block">
+            <img src="image/cakeBg.png" alt="" class="cakeBg">
+            <div class="diaryTitle">
+                <i class="iconsLeft"></i>
+                <p>聚有钱3周年庆典</p>
+                <p>纪录您与聚有钱的每一天</p>
+                <i class="iconsRight"></i>
+            </div>
+            <div class="phoneBox">
+                <input type="text" class="phone" maxlength="11" placeholder="请输入手机号领取">
+            </div>
+            <div class="phoneError"></div>
+            <div class="seeDiary">查看我的理财日记</div>
+        </div>
+        <!--未注册-->
+        <div class="noRegister" style="display: none">
+            <img src="image/icom.png" alt="" class="icom">
+            <div class="registerMes">
+                <p>恭喜您注册成功！</p>
+                <p>快去下载APP享受双重好礼吧</p>
+            </div>
+            <img src="image/gift.png" alt="" class="giftImg">
+            <div class="downLoad">下载APP</div>
+        </div>
+        <!--注册未投资-->
+        <div class="noInvest" style="display: none">
+            <img src="image/logo.png" alt="" class="logoImg">
+            <div class="investMes">
+                <p>亲爱的，您还没有投资呦</p>
+                <p>马上领取3周年福利去投资吧</p>
+            </div>
+            <img src="image/gift.png" alt="" class="giftImg">
+            <div class="welfare">领取福利</div>
+        </div>
+    </section>
+</div>
+
+<div class="mark" style="display: none"></div>
+<!--未注册短信验证弹窗-->
+<div class="regBox" style="display: none">
+    <div class="icoBox clearfix">
+        <i class="regClose fr"></i>
+    </div>
+    <div class="regCon">
+        <div class="regMes">
+            <p>您还未注册聚有钱</p>
+            <p>快输入验证码注册领福利吧！</p>
+        </div>
+        <p class="messageP">短信验证码已发送至<span>134****1112</span></p>
+        <div class="regDiv clearfix">
+            <p class="codeBox fl"><input class="imgCode" maxlength="6" type="text" placeholder="请输入验证码"></p>
+            <div class="fl send">已发送(59)</div>
+        </div>
+        <div class="messageError"></div>
+        <div class="rightReg">立即注册</div>
+    </div>
+
+</div>
+<!--领福利弹窗-->
+<div class="useWelfare" style="display: none">
+    <img src="image/cakeImg.png" alt="" class="cakeImg">
+    <div class="benefits">
+        <p>您已领取过福利啦</p>
+        <p>快去使用吧</p>
+    </div>
+    <div class="goUse">去使用</div>
+</div>
+</body>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="js/diary.js" type="text/javascript"></script>
+</html>
